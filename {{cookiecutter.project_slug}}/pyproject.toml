@@ -23,6 +23,8 @@ dev = [
   'pytest',
   'black',
   'mypy',
+  'pdoc',
+  'pre-commit'
 ]
 
 [project.urls]
