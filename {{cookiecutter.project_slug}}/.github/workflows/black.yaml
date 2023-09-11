@@ -14,4 +14,4 @@ jobs:
       - name: Lint with Black
         run: |
           pip install black
-          black --diff --check your_package tests
+          black --diff --check src/{{cookiecutter.project_slug}} tests
