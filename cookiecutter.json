@@ -1,7 +1,7 @@
 {
-    "full_name": "Diane Adjavon",
-    "email": "diane.adjavon@icloud.com",
-    "github_username": "adjavon",
+    "full_name": "Funke Lab",
+    "email": "funkej@hhmi.org",
+    "github_username": "funkelab",
     "project_name": "pyrepo",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "package description.",
