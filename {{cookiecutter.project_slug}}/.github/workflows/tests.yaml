@@ -22,4 +22,6 @@ jobs:
         pip install ".[dev]"
     - name: Test with pytest
       run: |
-        pytest tests
+        pytest --color=yes --cov --cov-report=xml --cov-report=term_missing tests
+    - name: Coverage
+      uses: codecov/codecov-action@v3
