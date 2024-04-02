@@ -7,7 +7,7 @@ Install [cruft](https://cruft.github.io/cruft/).
 
 Set up a project:
 ```
-cruft create https://github.com/funkelab/pycookie/
+cruft create https://github.com/janelia-cellmap/pycookie/
 ```
 Answer all of the questions.
 
